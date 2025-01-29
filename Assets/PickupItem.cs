@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PickupItem : MonoBehaviour
+public class PickUpItem : MonoBehaviour
 {
     [SerializeField, Tooltip("The speed that this object rotates at.")]
     private float _rotationSpeed = 5;
