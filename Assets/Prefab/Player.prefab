@@ -167,6 +167,37 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &2351683501047647992
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4453391875971954370}
+  m_Layer: 0
+  m_Name: Weapon_LOC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4453391875971954370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2351683501047647992}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3872386710172994427}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &2786959586016646650
 GameObject:
   m_ObjectHideFlags: 0
@@ -660,7 +691,8 @@ Transform:
   m_LocalPosition: {x: 0.43000007, y: -0.14861907, z: 0.28231475}
   m_LocalScale: {x: 0.30503047, y: 0.39421725, z: 0.2896255}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 4453391875971954370}
   m_Father: {fileID: 6403725458534233542}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 37, y: -22, z: -24}
@@ -1173,6 +1205,7 @@ GameObject:
   - component: {fileID: 1015055794957022771}
   - component: {fileID: 1453733783046940554}
   - component: {fileID: 8826817403157763454}
+  - component: {fileID: 616521016694723556}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1273,3 +1306,24 @@ MonoBehaviour:
   _invincibilityFramesMax: 3
   _invincibilityFramesCur: 0
   _isDead: 0
+--- !u!95 &616521016694723556
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8826817403157763429}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2354a4ada7845df478d8545c8fa586ab, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
