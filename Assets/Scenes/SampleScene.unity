@@ -608,10 +608,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5365623195871702070, guid: 6bbf4a44a63c34040ad3df726ab67ba3, type: 3}
+      propertyPath: _rotationSpeed
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6418313542205342292, guid: 6bbf4a44a63c34040ad3df726ab67ba3, type: 3}
       propertyPath: m_Name
       value: Weapon_Sword
       objectReference: {fileID: 0}
+    - target: {fileID: 6418313542205342298, guid: 6bbf4a44a63c34040ad3df726ab67ba3, type: 3}
+      propertyPath: _pivotObj
+      value: 
+      objectReference: {fileID: 1883942409}
     - target: {fileID: 6418313542205342299, guid: 6bbf4a44a63c34040ad3df726ab67ba3, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3023,9 +3031,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 9159580187882051830, guid: 8dcdb0017245064408cf001882f5ecb9, type: 3}
+      propertyPath: _pivotObj
+      value: 
+      objectReference: {fileID: 1883942409}
+    - target: {fileID: 9159580187882051830, guid: 8dcdb0017245064408cf001882f5ecb9, type: 3}
       propertyPath: _bulletToSpawn
       value: 
       objectReference: {fileID: 1080697013}
+    - target: {fileID: 9159580187882051831, guid: 8dcdb0017245064408cf001882f5ecb9, type: 3}
+      propertyPath: _rotationSpeed
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9159580187882051832, guid: 8dcdb0017245064408cf001882f5ecb9, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -4360,6 +4376,11 @@ NavMeshAgent:
   m_BaseOffset: 0.2
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!1 &1883942409 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2351683501047647992, guid: 45115e99283301f4a97433078a572082, type: 3}
+  m_PrefabInstance: {fileID: 8826817403488968331}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1947140768
 GameObject:
   m_ObjectHideFlags: 0
@@ -5298,6 +5319,18 @@ PrefabInstance:
     - target: {fileID: 1453733783046940554, guid: 45115e99283301f4a97433078a572082, type: 3}
       propertyPath: _movementAcceleration
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453391875971954370, guid: 45115e99283301f4a97433078a572082, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453391875971954370, guid: 45115e99283301f4a97433078a572082, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453391875971954370, guid: 45115e99283301f4a97433078a572082, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.11
       objectReference: {fileID: 0}
     - target: {fileID: 5604660638218180158, guid: 45115e99283301f4a97433078a572082, type: 3}
       propertyPath: m_RootOrder
