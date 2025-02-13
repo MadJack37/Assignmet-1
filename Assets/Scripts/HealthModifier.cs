@@ -55,7 +55,7 @@ public class HealthModifier : MonoBehaviour
                 Rigidbody rb = hitObj.GetComponent<Rigidbody>();
                 //if (rb != null)
                 {
-                    Debug.Log("Addiong explosive force!!!");
+                    Debug.Log("Adding explosive force!!!");
                     rb?.AddExplosionForce(_knockbackForce, transform.position, 10f);
                 }
             }
